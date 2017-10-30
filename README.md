@@ -1,4 +1,4 @@
-# sentiment-classification-network
+# Sentiment Classification Network
 Neural network for sentiment classification on natural language
 
 This network classifies text movie reviews between positive and negative. By running the test file:
@@ -20,3 +20,9 @@ However, you can place with the parameters to get more interesting results:
  - min_count: filters the unfrequent words that appeared in training data set
  - polarity_cutoff: filters neutral words. the lower this parameter is, the more the network accepts neutral words (such as: 'the', 'and', 'a', 'I') into consideration
  - hidden_nodes: defines the number of hidden layer units. default to be 10.
+
+I also added an implementation of the network using tensorflow. to run the code:
+
+```
+python TFN.py
+```
